@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>AI MUSIC WEBAPP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montagu+Slab:opsz,wght@16..144,500&family=Oswald&family=Readex+Pro&family=Rubik+Moonrocks&family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,500&family=Oswald&family=Readex+Pro&family=Rubik+Moonrocks&family=Special+Elite&display=swap" rel="stylesheet">
+  <script src="//cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js" target="_blank"></script>
+  <script src="main.js"></script>
+    </head>
+    <body>
+        <div>
+        <center>   
+            <ul class="menu1">
+              <li class="links"><a href="#home">Home</a></li>
+            </ul>
+        </center>
+        </div>
+        <section id="home">
+        <center>
+        <div class="btn btn-primary" id="div1" style="background-color:#C9F1FF;">
+        <h1>AI MUSIC WEBAPP</h1>
+        <h2 style="font-family: 'Readex Pro', sans-serif;">Choose your pair of language from below or pair of music genres and manipulate your song from your wrist!</h2>
+    </div>
+</center>
+</section>
+<section>
+<div class="row div2">
+    <div class="column" style="background-color:lightblue;">
+        <h2 style="background-color:lightyellow; border-radius:20px;">LANGUAGES:</h2>
+        <div class="menu2">
+            <button style="background-color:lightyellow; width: 300px; height: 50px; font-size: 20px;" onclick="next_page1();">Punjabi & English</button>
+            <button style="background-color:lightyellow; width: 300px; height: 50px; font-size: 20px;" onclick="next2();">Tamil & Hindi</button>
+        </div>
+    </div>
+    <div class="column div2" style="background-color:lightyellow;">
+        <h2 style="background-color:lightblue; border-radius:20px;">OR GENRES:</h2>
+        <ul class="menu2">
+            <button class="links" a href="#rock_sec" style="background-color: lightblue; width: 300px; height: 50px; font-size: 20px;" onclick="next3()">Rock & Folk</button>
+            <button class="links" a href="#folk_sec" style="background-color: lightblue; width: 300px; height: 50px; font-size: 20px;" onclick="next4();">Pop & Instrumental</button>
+        </ul>
+    </div>
+  </div>
+  <div>
+    <mark color="yellow" id="mark1" style="margin-bottom: 50px; font-family: 'Readex Pro', sans-serif; background-color: yellow;"><marquee style="margin-top: 25px;">CLICK ON YOUR DESIRED LANGUAGE OR MUSIC GENRE PAIR TO DIRECT TO THE NEXT WEBPAGE-</marquee></mark>
+  </div>
+  <hr width="50%;" color="black">
+  <section id="about"><mark id="mark2">ABOUT SONGS</mark> 
+    <h3>ROCK SONG ORIGIN</h3>
+    <p>Rock music is a broad genre of popular music that originated as "rock and roll" in the United States in the late 1940s and early 1950s, developing into a range of different styles in the 
+        mid-1960s and later, particularly in the United States and the United Kingdom.[3] It has its roots in 1940s and 1950s rock and roll, a style that drew directly from the blues and rhythm 
+        and blues genres of African-American music and from country music. Rock music also drew strongly from a number of other genres such as electric blues and folk, and incorporated influences 
+        from jazz, classical, and other musical styles. For instrumentation, rock has centered on the electric guitar, usually as part of a rock group with electric bass, drums, and one or more singers. 
+        Usually, rock is song-based music with a 4
+        4 time signature using a verse–chorus form, but the genre has become extremely diverse. Like pop music, lyrics often stress romantic love but also address a wide variety of other themes that 
+        are frequently social or political.
+        
+        Rock musicians in the mid-1960s began to advance the album ahead of the single as the dominant form of recorded music expression and consumption, with the Beatles at the forefront of this development. Their contributions lent the genre a cultural legitimacy in the mainstream and initiated a rock-informed album era in the music industry for the next several decades. By the late 1960s "classic rock"[3] period, a number of distinct rock music subgenres had emerged, including hybrids like blues rock, folk rock, country rock, southern rock, raga rock, and jazz rock, many of which contributed to the development of psychedelic rock, which was influenced by the countercultural psychedelic and hippie scene. New genres that emerged included progressive rock, which extended the artistic elements, glam rock, which highlighted showmanship and visual style, and the diverse and enduring subgenre of heavy metal, which emphasized volume, power, and speed. In the second half of the 1970s, punk rock reacted by producing stripped-down, energetic social and political critiques. Punk was an influence in the 1980s on new wave, post-punk and eventually alternative rock.</p>
+
+        <h3>FOLK SONG ORIGIN</h3>
+    <p>Folk music is a music genre that includes traditional folk music and the contemporary genre that evolved from the former during the 20th-century folk revival. Some types of folk music may be called world music. Traditional folk music has been defined in several ways: as music transmitted orally, music with unknown composers, music that is played on traditional instruments, music about cultural or national identity, music that changes between generations (folk process), music associated with a people's folklore, or music performed by custom over a long period of time. It has been contrasted with commercial and classical styles. The term originated in the 19th century, but folk music extends beyond that.
+
+        Starting in the mid-20th century, a new form of popular folk music evolved[citation needed] from traditional folk music. This process and period is called the (second) folk revival and reached a zenith in the 1960s. This form of music is sometimes called contemporary folk music or folk revival music to distinguish it from earlier folk forms.[1] Smaller, similar revivals have occurred elsewhere in the world at other times, but the term folk music has typically not been applied to the new music created during those revivals. This type of folk music also includes fusion genres such as folk rock, folk metal, and others. While contemporary folk music is a genre generally distinct from traditional folk music, in U.S. English it shares the same name, and it often shares the same performers and venues as traditional folk music.</p>
+        <h3>POP SONG ORIGIN</h3>
+        <p>Pop music is a genre of popular music that originated in its modern form during the mid-1950s in the United States and the United Kingdom.[4] The terms popular music and pop music are often used interchangeably, although the former describes all music that is popular and includes many disparate styles. During the 1950s and 1960s, pop music encompassed rock and roll and the youth-oriented styles it influenced. Rock and pop music remained roughly synonymous until the late 1960s, after which pop became associated with music that was more commercial, ephemeral, and accessible.
+
+            Although much of the music that appears on record charts is considered to be pop music, the genre is distinguished from chart music. Identifying factors usually include repeated choruses and hooks, short to medium-length songs written in a basic format (often the verse-chorus structure), and rhythms or tempos that can be easily danced to. Much pop music also borrows elements from other styles such as rock, urban, dance, Latin, and country.</p>
+            <h3>INSTRUMENTAL SONG ORIGIN</h3>
+        <p>An instrumental is a recording normally without any vocals, although it might include some inarticulate vocals, such as shouted backup vocals in a big band setting. Through semantic widening, a broader sense of the word song may refer to instrumentals.[1][2][3] The music is primarily or exclusively produced using musical instruments. An instrumental can exist in music notation, after it is written by a composer; in the mind of the composer (especially in cases where the composer themselves will perform the piece, as in the case of a blues solo guitarist or a folk music fiddle player); as a piece that is performed live by a single instrumentalist or a musical ensemble, which could range in components from a duo or trio to a large big band, concert band or orchestra.
+
+            In a song that is otherwise sung, a section that is not sung but which is played by instruments can be called an instrumental interlude, or, if it occurs at the beginning of the song, before the singer starts to sing, an instrumental introduction. If the instrumental section highlights the skill, musicality, and often the virtuosity of a particular performer (or group of performers), the section may be called a "solo" (e.g., the guitar solo that is a key section of heavy metal music and hard rock songs). If the instruments are percussion instruments, the interlude can be called a percussion interlude or "percussion break". These interludes are a form of break in the song.</p>
+    </section>
+    </body>
+</html>
